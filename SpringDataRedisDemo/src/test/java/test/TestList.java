@@ -33,6 +33,7 @@ public class TestList {
 	public void testGetValue1(){
 		List list = redisTemplate.boundListOps("namelist1").range(0, 10);
 		System.out.println(list);
+		System.out.println(list);
 	}
 	
 	@Test
